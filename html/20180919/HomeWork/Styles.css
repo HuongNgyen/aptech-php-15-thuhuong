@@ -1,33 +1,39 @@
+body{
+    margin: 40px 100px;
+    height: 100%;
+}
 .Header{
-    
+    border: black solid 5px;
     width: 100%;
     height:250px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .qcHeader{
-    width:55%; 
+    width:60%; 
     height:100%;
     margin-left:300px;
 }
 .Ad{
-    
+    border: black solid 5px;
+    margin-top:20px;
     height: 250px; 
     display: flex; 
     justify-content: space-around;
-     align-items: center;
+    align-items: center;
 }
 .Item-img{
     height:100%;
      width:90%;
 }
 .Content{
-    
+    margin-top: 20px;
+    border: black solid 5px;
      width: 100%;
-    height:500px; 
+    height:700px; 
     display: flex; 
-    justify-content: center; 
+    justify-content:space-around; 
     align-items: center; 
     margin-left: 20px;
     margin-right: 20px;
@@ -45,7 +51,7 @@ hr{
     align-items: center;
 }
 .Footer{
-    margin-top: 50px;
+    margin-top: 20px;
     border: 2px solid;
     border-color: burlywood;
     width: 100%;

@@ -1,0 +1,26 @@
+.Body--custom-height-weight{
+    height:100%;
+    width:70%;
+   }
+  .Header-custom-height{
+    height:100px;
+  }
+  .Content--custom-height{
+    height:500px;
+  }
+  .Footer--custom-height{
+    height: 100px;
+  }
+  .Padding--body-custom{
+    padding: 20px;
+  }
+  .Pl--custom{
+    padding-left: 10px;
+  }
+  .Border--bottom-custom{
+    border-bottom:0.25rem solid snow;
+      
+ }
+ .Bg--color-custom{
+ background-color: black;
+ }
