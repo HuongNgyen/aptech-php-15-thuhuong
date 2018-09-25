@@ -1,0 +1,23 @@
+.Header--height{
+    height: 70px;
+}
+.Ad--height{
+    height: 250px;
+}
+.lead{
+    font-weight: 300px;
+    font-size: 1.2rem;
+}
+.Card--height{
+    height:380px;
+}
+.C--height-custom{
+   width:290px; height:327px;
+}
+ul{
+    list-style-type: none;
+}
+.Footer--container{
+    height: 300px;
+}
+
