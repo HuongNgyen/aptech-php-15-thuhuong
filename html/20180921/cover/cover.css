@@ -1,26 +1,24 @@
 .Body--custom-height-weight{
     height:100vh;
-    width:70%;
+    background-color:black;
    }
   .Header-custom-height{
-    height:100px;
+    height:25%;
   }
   .Content--custom-height{
-    height:500px;
+    height:50%;
   }
   .Footer--custom-height{
-    height: 100px;
+    height: 25%;
+   
   }
-  .Padding--body-custom{
-    padding: 20px;
-  }
-  .Pl--custom{
-    padding-left: 10px;
-  }
-  .Border--bottom-custom{
-    border-bottom:0.25rem solid snow;
-      
- }
  .Bg--color-custom{
  background-color: black;
  }
+ a{      
+  border-bottom:3px solid #000000;
+}
+a:hover{
+border-bottom: 5px solid white;
+}
+

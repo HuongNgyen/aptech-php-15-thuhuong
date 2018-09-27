@@ -1,0 +1,14 @@
+.container {
+    height: 100vh;
+  }
+  .font {
+    font-family: "Lobster", cursive !important;
+  }
+  .font-size {
+    font-size: 50px;
+  }
+  .Bg-button:hover{
+    
+      background: #FFFFFF;
+      color: silver;
+  }
