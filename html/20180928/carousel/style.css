@@ -1,0 +1,35 @@
+.Header-custom{
+    height:60px;
+}
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.Carousel-custom{
+    height: 100%;
+    background-color: #5a5a5a;
+}
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+.card-custom{
+    height: 100%;
+}
+.content-custom{
+    height: 100%;
+}
+.featurette-divider {
+    margin: 5rem 0;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.img-fluid {
+    max-width: 100%;
+}
