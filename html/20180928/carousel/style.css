@@ -17,6 +17,11 @@
     bottom: 3rem;
     z-index: 10;
 }
+.carousel-content-item-2{
+    position:absolute;
+    
+    top:50%;
+}
 .card-custom{
     height: 100%;
 }
@@ -32,4 +37,7 @@
 }
 .img-fluid {
     max-width: 100%;
+}
+.footer-custom{
+    height: 100%;
 }

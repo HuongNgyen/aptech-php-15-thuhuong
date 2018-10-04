@@ -1,0 +1,53 @@
+<!DOCTYPE  html>
+<html>
+<head>
+   
+</head>
+<body>
+  
+    <!--<button onclick="quetnha()">Hien thong bao</button>
+    <p class="abc" id="demo" style="color: #8e193b">Hường</p>-->
+     <button onclick="TurnOn()">Turn on the light</button>
+    <img id="js-image" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="">
+    
+    <button onclick="TurnOff()">Turn off The light</button>
+    <button onclick="BatTat()">Switch</button>
+   
+<script>
+    var a = document.getElementById("js-image");
+    function BatTat(){
+        if (a.src.includes('off.gif')){
+            a.src='https://www.w3schools.com/js/pic_bulbon.gif';
+            console.log(a.src);
+        }
+        else {a.src="https://www.w3schools.com/js/pic_bulboff.gif";
+        console.log(a.src);}
+    }
+
+    function TurnOff(){
+        //document.getElementById("js-image").src="https://www.w3schools.com/js/pic_bulboff.gif";
+        a.src="https://www.w3schools.com/js/pic_bulboff.gif";
+        console.log(document.getElementById("js-image"));
+    }
+    function TurnOn(){
+        /*document.getElementById("doianh").src="https://www.w3schools.com/js/pic_bulbon.gif";*/
+
+        //var tenAnh = document.getElementById("js-image");
+        a.src="https://www.w3schools.com/js/pic_bulbon.gif";
+        console.log(document.getElementById("js-image"));
+      
+    }
+    function quetnha3(){
+        console.log('hello');
+        document.getElementById("js-image").innerHTML="My first JavaScript" ;
+    }
+    function quetnha(){
+       
+        //console.log(document.getElementById("demo"));
+       //document.getElementById("demo").innerHTML='My name is Hường';
+        //document.getElementById("demo").style.color='#0d2f64';
+        //console.log(document.getElementById("demo").style.color='black');
+    }
+</script>
+</body>
+</html>

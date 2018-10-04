@@ -1,13 +1,28 @@
 .Header--height-custom{
     height:80px;
 }
+
 .btn-custom-readmore{
     background-color: #79cba8;
     color:white;
 }
+.btn1{ 
+    color: black;
+}
 .btn1:hover{
-    background-color: #79cba8;
-    color:white;
+    
+    color:#79cba8;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: #79cba8
+     !important;
+     border: 1px solid #79cba8 !important;
+     color: white !important;
+   
+}
+.btn3:hover{
+    color: white !important;
 }
 .Card-custom{
     position: relative;
@@ -112,6 +127,26 @@ noo-atributes-item.noo-atributes-item2 {
         background-repeat: no-repeat;
         background-size: cover;
 }
+
+.img-carousel-custom{
+    position: absolute;
+    float: left;
+}
+
+.container--hidden {
+    background-image:url(http://tk-themes.net/html-organici/html/images/image-background.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.custom-header-nav:hover{
+    color:#79cba8;
+}
+
 .custom-polaroid {
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
