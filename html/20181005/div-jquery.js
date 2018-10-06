@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $('#hien').click(function(){
+        $('#show').show();
+        console.log(show);
+    });
+    $('#an').click(function(){
+        $('#show').hide();
+        console.log(show);
+    })
+    $('#anvahien').click(function(){
+        $('#show').toggle();
+        console.log(anvahien);
+    });
+});

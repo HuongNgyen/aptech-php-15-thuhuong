@@ -8,3 +8,9 @@
 .container--card{
     height:1300px;
 }
+.Bg-custom{
+    background-color: red;
+}
+ul{
+    list-style:none;
+}

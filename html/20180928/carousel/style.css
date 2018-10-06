@@ -9,6 +9,10 @@
     -ms-flex-align: center;
     align-items: center;
 }
+.link--custom:hover{
+    color: whitesmoke
+    !important;
+}
 .Carousel-custom{
     height: 100%;
     background-color: #5a5a5a;

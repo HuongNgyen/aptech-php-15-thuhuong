@@ -7,15 +7,31 @@
         <link rel="stylesheet"   href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     </head>
     <body >
-       <div class="container-fluid bg-dark" style="height:60px;">
-            <div class="row  w-100 h-100">
+
+       <div class="container-fluid bg-dark h-100">
+           <div id="hienra" class="row d-none">
+               <div class="col-6 offset-2  text-white ">
+                   <h2>About</h2>
+                   <p >Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+               </div>
+               <div class="col-4 text-white">
+                   <ul>
+                       <li><h2 >Contact</h2></li>
+                       <li> <a href="" class="text-white"> Follow on Twitter</a></li>
+                       <li><a href="" class="text-white">Like on Facebook</a></li>
+                       <li><a href="" class="text-white">Email me</a></li>
+                   </ul>
+              
+               </div>
+           </div>
+         <div class="row  w-100 h-100">
            <div class="col-4 offset-2 d-flex justify-content-start
            align-items-center text-white ">
            <i class="fas fa-camera "></i>
                <h4 class="text-white px-2"> Album</h4>
             </div>
             <div class="col-4 d-flex justify-content-end align-items-center ">
-                    <button type="button" class="btn btn-outline-secondary text-white"><i class="fas fa-bars"></i></button>
+                    <button id="js-show" type="button" class="btn btn-outline-secondary text-white"><i class="fas fa-bars"></i></button>
             </div>
        </div>
     </div>
@@ -203,5 +219,20 @@
            </div>
        </div>
 
+      <!--<script>
+          var a = document.getElementById("hienra");
+           function divhien(){
+               a.classList.remove('d-none');
+           } 
+           function btn(){
+               if (a.className.includes('d-none')){
+                   a.classList.remove('d-none');
+               }
+               else a.classList.add('d-none');
+           }   
+      </script>-->
+      
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+       <script src="./script.js"></script>
     </body>
 </html>

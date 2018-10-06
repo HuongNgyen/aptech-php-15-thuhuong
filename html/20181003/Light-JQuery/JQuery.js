@@ -10,13 +10,14 @@
 $(document).ready(function(){
     $('#on').click(function(){
         $('#img-js').attr("src", "https://www.w3schools.com/js/pic_bulbon.gif");
+        console.log(on);
     });
-});
-$(document).ready(function(){
     $('#off').click(function(){
-        $('#img-js').attr("src","https://www.w3schools.com/js/pic_bulboff.gif")
+        $('#img-js').attr("src","https://www.w3schools.com/js/pic_bulboff.gif");
+        
     });
 });
+
 /*$('#turn').click(function () {
     $('#img-js').toggle(function(){
         $('#img-js').show(function(){
