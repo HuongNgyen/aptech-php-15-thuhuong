@@ -1,0 +1,23 @@
+
+        table {
+            
+            font-family: Arial, sans-serif;
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+ 
+        th {
+            
+            background-color: rgb(180, 102, 102);
+            color: antiquewhite;
+        }
+ 
+        td {
+            border: 1px solid;
+            padding: 5px;
+        }
+        thead{
+            background-color: rgb(180, 102, 102);
+            color: antiquewhite;
+        }
+
