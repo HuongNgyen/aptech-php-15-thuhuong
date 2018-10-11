@@ -24,8 +24,9 @@ $(document).ready(function() {
             $('#js-tr-body-' + index).append(thBody, tdBody);
           });
 
+          }
           $('#js-button').hide();
-        }
+        
       });
     });
   });
