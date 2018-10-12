@@ -1,0 +1,80 @@
+
+h1{
+    color: rgb(40, 167, 69)
+    !important;
+}
+
+.Card--custom{
+    background-image: url('https://images.unsplash.com/photo-1520881363902-a0ff4e722963?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eaaa6e11b146f75c1a685578d3c89dff&auto=format&fit=crop&w=750&q=80')
+    !important;
+    background-position: center
+    !important;
+    height:295px;
+    filter: brightness(50%);
+   
+}
+.Card--custom-1{
+    background-image: url('https://images.unsplash.com/photo-1507807700760-c8b26e28f09e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f05dd441bd68bf549f957858309072fb&auto=format&fit=crop&w=750&q=80')
+    !important;
+    background-position: center
+    !important;
+    height:295px;
+    filter: brightness(50%);
+   
+}
+.Card--custom-1:hover{
+    -webkit-filter: contrast(100%);
+}
+.Card--custom:hover{
+    -webkit-filter: contrast(100%);
+}
+.img-footer{
+    filter: brightness(100%);
+}
+img{
+    filter: brightness(50%);
+}
+img:hover {
+    -webkit-filter: contrast(100%);
+}
+
+.Text-card{
+    color: white;
+}
+.Height-Card-1{
+    height: 295px;
+    width: 30rem;
+}
+a{
+    color:black
+    !important;
+}
+a:hover{
+    text-decoration: none
+    !important;
+}
+.Ul-1{
+    list-style: none;
+}
+.span-js{
+    background-color: rgb(40, 167, 69);
+    color:white;
+    width:55px;
+}
+.span-css{
+    background-color: red;
+    color: white;
+    width:55px;
+}
+.span-java{
+    background-color: yellow;
+    width:55px;
+}
+.Height-Img{
+    height: 400px;
+    width: 30rem;
+}
+.Height-Img-1{
+    height:355px;
+    width: 20rem;
+}
