@@ -7,4 +7,10 @@ $(document).ready(function(){
         
     });
     $('#js-icon').addClass("d-none");
-});
+    $('button').click(function(){
+        $.get("./index.html",function(){
+            console.log("success")
+        });
+    });
+   
+    });

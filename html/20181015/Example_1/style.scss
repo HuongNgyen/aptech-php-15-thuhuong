@@ -1,0 +1,169 @@
+.Header{
+    
+    &__logo {
+        &--size{
+            height: 60px;
+            width: 60px;
+        }
+    }
+    &__Navigation{
+       
+        &:hover{
+            background-color: white;
+            color: black
+            !important;
+            
+        }
+        &--background{
+            background-color: yellow;
+            color: black;
+        }
+    }
+}
+
+.Carousel{
+    &__background1{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1417918045827-f574d241e2cc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=43d7ae88499399ae24418371777c32ce&auto=format&fit=crop&w=750&q=80');
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        
+    }
+    &__background2{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1456615074700-1dc12aa7364d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bee8c3ec01db125b13a362bab679c860&auto=format&fit=crop&w=750&q=80');
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        background-attachment: fixed;
+    }
+    &__background3{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1529411081224-84ac0d0bf6ab?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a9c0dbdc15011e63557b6fa3ed2906ea&auto=format&fit=crop&w=750&q=80');
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        background-attachment: fixed;
+    }
+    &__h1{
+        color: yellow;
+    }
+    &__button1{
+    &:hover{
+        background-color: yellow;
+        color: black;
+        border: 1px solid black;
+    }  
+    &--size
+    {
+        background-color: gray;
+        color: white;
+        border: 1px solid white;
+    }
+}
+    &__button2{
+        &:hover{
+        background-color: gray;
+        color: white;
+        border: 1px solid white;
+        }
+        background-color: yellow;
+        color: black;
+        border: 1px solid black;
+    }
+    &__div{
+        color: black;
+        background-color: yellow;
+        height: 70px; 
+        &--button{
+            color: yellow;
+            background-color: black;
+            position: absolute;
+            bottom: 10px;
+            
+           border: 1px solid blanchedalmond;
+            &:hover{
+                background-color: yellow
+                !important;
+                color: black;
+            }
+        }
+    }
+ 
+}
+
+.Card{
+    &__header{
+        height: 150px;
+    }
+}
+
+.Content{
+    &__background{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e473b21e1b31fbf93ea6887690e1c3b1&auto=format&fit=crop&w=750&q=80');
+       
+        width: 100%;
+    }
+}
+
+.Ask{
+    &__card{
+        &--header{
+            background-color: yellow !important;
+        }
+    }
+}
+
+.Info{
+    &__background{
+        &__background{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1493994492236-f8d411fd81b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a557d0d11f5d9c79ec5b39e011aa55d8&auto=format&fit=crop&w=750&q=80');
+           height: 400px;
+            width: 100%;
+    }
+}
+}
+
+.Client{
+    &__background{
+        &--color{
+            
+                background-color: rgba(0,0,0,.6);
+              
+        }
+        &--image{
+            background-image: url('http://blog.crashzone.com.au/static/media/au.3ee975a9.svg');
+            background-position: 50%;
+            background-repeat: no-repeat;
+           
+            height:500px;
+        }
+    } 
+    
+}
+.Footer{
+    &__background{
+        background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1505081759959-fd82ec94256d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=68b1a13ed6d84e1e895fdb7aeea4f7bf&auto=format&fit=crop&w=500&q=60');
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 500px;
+        width: 100%; 
+        border-bottom: 1px solid white;
+    }
+    &__h4{
+        color: yellow;
+    }
+    &__button{
+        background-color: yellow;
+        border-color: black;
+    }
+}
+.Bottom{
+    &__background{
+        background-color: #373737;
+        height: 200px;
+    }
+}
