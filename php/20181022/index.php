@@ -9,7 +9,7 @@
 <body>
 <div class="container">
 <?php
-echo "<h1><a href=\"./\">BACK</a></h1>";
+echo "<h1><a href=\"../\">BACK</a></h1>";
 echo "<h1 class= 'text-center' >Bảng kết quả</h1>";
 $data = [
     [
@@ -53,15 +53,18 @@ $data = [
 
 <tbody>
 <?php
+// $i < count ($data) 
 for ($i = 0; $i < 2 ; $i++){
     echo "<tr>
-    <th scope='row'> $i </th>
-    <td> ".$data[$i]['type']."</td>
-    <td> ".$data[$i]['property']['price']."</td>
-    <td> ".$data[$i]['property']['ram']."</td>
-    <td> ".$data[$i]['property']['made']['in']."</td>
+    <th scope='row'>" . ($i+1) ." </th>
+    <td> " . $data[$i]['type'] . "</td>
+    <td> " . $data[$i]['property']['price'] . "</td>
+    <td> " . $data[$i]['property']['ram'] . "</td>
+    <td> " . $data[$i]['property']['made']['in'] . "</td>
   </tr>";
 }
+//<th scope='row'> $i </th>
+//<th scope='row'>" . ($i+1) ." </th>
 ?>
 </tbody>
 </table>
