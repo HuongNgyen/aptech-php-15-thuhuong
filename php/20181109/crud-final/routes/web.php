@@ -24,7 +24,8 @@ Route::delete('/users/{id}', 'UserController@destroy')->name('users.destroy');
 
 //create
 Route::post('/users', 'UserController@store')->name('users.store');
-//create nayf neu link la /users/create thi dua dong nay len truoc route show vi laravel tuong create la {id}
+
+//create nay neu link la /users/create thi dua dong nay len truoc route show vi laravel tuong create la {id}
 Route::get('create','UserController@create')->name('users.create');
 
 //update
