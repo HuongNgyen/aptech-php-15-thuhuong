@@ -1,0 +1,51 @@
+.Bg-main {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url("../photo-1492683513054-55277abccd99.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../photo-1492683513054-55277abccd99.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 660px;
+  width: 100%;
+}
+
+.Bg-register {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3))), url("../photo-1519691548119-14735e4a11c8.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("../photo-1506815181983-292770fc39f2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 660px;
+  width: 100%;
+}
+
+.Border-form {
+  margin-top: 80px;
+}
+
+h1 {
+  color: white;
+}
+
+span.icon1, span.icon2 {
+  color: #ea2858;
+  right: 20%;
+}
+
+.Input_pom-agile {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-pink {
+  color: #fff;
+  background-color: #ea2858;
+  border-color: #ea2858;
+}
+
+.Input__search {
+  border-top-left-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+}
+/*# sourceMappingURL=style.css.map */
